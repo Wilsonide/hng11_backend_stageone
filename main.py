@@ -32,7 +32,7 @@ async def SayHello(request: Request, visitors_name: str = None):
     return {
         "client_ip": client_ip,
         'location': location['city'],
-        "message": f"hello {visitors_name} the temperature is {temperature} degrees in {location['city']}",
+        "message": f"Hello {visitors_name}!, the temperature is {temperature} degrees Celcius in {location['city']}",
 
 
     }
